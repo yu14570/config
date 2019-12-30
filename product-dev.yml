@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/weixinsell?serverTimezone=UTC
+  jpa:
+    show-sql: true  #jpa调试，控制台显示sql语句
+env:
+ dev3
+girl:
+ name: lucy
+ age: 18
